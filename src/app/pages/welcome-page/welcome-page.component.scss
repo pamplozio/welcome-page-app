@@ -1,0 +1,30 @@
+  .welcome-animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
+
+  .welcome-animation iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
+  
+  .auth-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .auth-buttons button {
+    margin: 10px;
+  }
+  
+  mat-tab-group {
+    margin-top: 20px;
+    width: 100%;
+  }
+  

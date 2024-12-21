@@ -1,0 +1,25 @@
+<mat-tab-group>
+    <!-- Sign Up Tab -->
+    <mat-tab label="Sign Up" *ngIf="showLoginTab">
+      <app-signup></app-signup>  <!-- Place your Sign-Up form component here -->
+    </mat-tab>
+  
+    <!-- Login Tab -->
+    <mat-tab label="Login" *ngIf="!showLoginTab">
+      <app-login></app-login>   <!-- Place your Login form component here -->
+    </mat-tab>
+  </mat-tab-group>
+  
+  <!-- Spline Animation (Interactive Loader) -->
+  <div class="welcome-animation">
+    <iframe src='https://my.spline.design/planetrotation-1dd7f92644e840b37def2a08468a3dac/' frameborder='0' width='100%' height='100%'></iframe>
+  </div>
+  
+  
+  <!-- Social Media Login Buttons -->
+  <div class="auth-buttons">
+    <button mat-raised-button color="accent">Login with Google</button>
+    <button mat-raised-button color="primary">Login with Facebook</button>
+  </div>
+  
+  
